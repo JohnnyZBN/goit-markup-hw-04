@@ -346,7 +346,8 @@ box-shadow:
   max-width:264px;
 }
 .overlay{
-  padding: 8px;
+  transform:none;
+  /* padding: 8px;
     background-color: #4D5AE5;
     color: #fff;
     position: absolute;
@@ -355,7 +356,7 @@ box-shadow:
     width: 100%;
     height: 300px;
     transform: translateY(-100%);
-    transition: transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out; */
 }
 .portfolio-li:hover .overlay{
   transform: translateY(0);
