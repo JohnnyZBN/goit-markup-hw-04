@@ -225,9 +225,9 @@ width: calc((100% - 72px) / 4);
 .aboutus-listheader{
   margin-bottom: 8px;
 }
-.svg{
-  width: 64px;
-height: 64px;
+svg{
+width: 64;
+height: 64;
 }
 .icons-aboutus{
   display:flex;
