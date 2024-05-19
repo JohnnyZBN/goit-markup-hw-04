@@ -332,8 +332,7 @@ box-shadow:
 
 }
 .overlay {
-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  overflow: hidden;
+overflow: hidden;
   position: relative;
 }
 
@@ -391,6 +390,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .footer-list{
   width: 40px;
   height: 40px;
+
 }
 .footer-links{
   width: 100%;
@@ -400,7 +400,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   align-items: center;
   justify-content: center;
-  transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 .footer-links:hover, .footer-links:focus{
