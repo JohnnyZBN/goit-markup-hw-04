@@ -64,6 +64,9 @@ ul {list-style-type: none;}
 .header{
   padding:25.5px 0 25.5px 0;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .nav {
   display: flex;
@@ -103,7 +106,31 @@ img{display:block;}
     letter-spacing: 0.02em;
     color: #2E2F42;
   text-decoration: none;
-padding:24px 0}
+padding:24px 0;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+ .navi-current{
+   font-family: "roboto", sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #404bbf;
+   text-decoration: none;
+   padding: 24px 0;
+   position:relative;
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+ .navi-current::after { 
+  content: '';
+  width: 100%;
+  position: absolute;
+  left:0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+ }
 
     .navi-cards:hover, .navi-cards:focus {color: #404bbf;}
 
@@ -115,6 +142,7 @@ padding:24px 0}
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts:hover, .contacts:focus{
   color:#404bbf
