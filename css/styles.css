@@ -347,6 +347,8 @@ box-shadow:
 }
 .overlay{
   transform:none;
+  overflow: hidden ;
+  position: relative;
   /* padding: 8px;
     background-color: #4D5AE5;
     color: #fff;
