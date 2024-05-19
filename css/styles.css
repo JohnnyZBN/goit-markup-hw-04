@@ -225,7 +225,7 @@ width: calc((100% - 72px) / 4);
 .aboutus-listheader{
   margin-bottom: 8px;
 }
-svg{
+.svg{
   width: 64px;
 height: 64px;
 }
